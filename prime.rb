@@ -7,7 +7,7 @@ def prime?(numbers)
         max = Math.sqrt(numbers)
 
         (2..max).any? do |i| 
-            if number % i == 0 then return false end
+            if numbers % i == 0 then return false end
         end
 
         true
