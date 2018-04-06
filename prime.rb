@@ -1,7 +1,8 @@
 # Add  code here!
 def prime?(numbers)
       if numbers <= 1 
-        return false end        
+        return false 
+      end        
 
         max = Math.sqrt(numbers)
 
