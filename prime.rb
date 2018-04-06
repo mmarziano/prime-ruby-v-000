@@ -2,7 +2,7 @@
 def prime?(numbers)
       if numbers <= 1 
         return false 
-      end        
+      else         
 
         max = Math.sqrt(numbers)
 
